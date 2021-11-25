@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.secnod.dropwizard</groupId>
+  <groupId>io.cassandrareaper.dropwizard</groupId>
   <artifactId>dropwizard-shiro</artifactId>
   <version>0.3.0-SNAPSHOT</version>
 
@@ -73,7 +73,7 @@
       <version>${shiro.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.secnod.shiro</groupId>
+      <groupId>io.cassandrareaper.shiro</groupId>
       <artifactId>shiro-jersey</artifactId>
       <version>${shiro-jersey.version}</version>
       <exclusions>
@@ -95,7 +95,7 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.secnod.shiro</groupId>
+      <groupId>io.cassandrareaper.shiro</groupId>
       <artifactId>shiro-jersey</artifactId>
       <version>${shiro-jersey.version}</version>
       <type>test-jar</type>
